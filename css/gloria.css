@@ -16,20 +16,20 @@ img{
 
 } */
 
-
+/* 
 .about{
   color: tomato;
    font-size: 25px;
    
   margin-bottom: 70px;
    
-}
+} */
 
 
-button{
+/* button{
    width: 400px;
    border-radius: 50px;
-}
+} */
 p{
    font-size: 20px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -62,12 +62,34 @@ p{
 }
 
 
-body{
-  
-}
-
-
 #welcome-section{
    
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.container{
+  background-color: #000000;
+  opacity: 0.9;
+
+}
+p{
+  color: rgb(223, 217, 228);
+}
+h3{
+  color: rgb(230, 214, 211);
+}
+
+h4{
+  color: rgb(248, 210, 210);
+}
+
+h6{
+color: wheat;
+}
+
