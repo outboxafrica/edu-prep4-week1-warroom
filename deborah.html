@@ -1,12 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>DEBORAH</title>
+    <style>
+            @media only screen and (max-width: 600px) {
+            body {
+                    width: 30vw;
+                    height: 50vh;
+                }
+            }
+
+        body{
+             background-image: url(images/image.jpg);
+             font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        }
+  
+        .container {
+            display:flex;
+          
+        }
+        p {
+            text-align: justify;
+            line-height: 1.5;
+        font-size: 18px;
+        }
+
+        .about {
+                background-color: white;
+                color: black;
+                display:block;
+                width:30%;
+                height: 70%;
+                align-content: center;
+                padding: 20px;
+                margin: 3%;
+                font-style: italic;
+                
+        }
+
+        .about img {
+            width: 300px;
+            height:300px;
+            border-radius: 150px;
+        
+        }
+        .projects {
+            margin:3%;
+             display: block;
+             width: 70%;
+             color:white;
+             padding: 20px;
+             align-content: center;
+             font-style: italic;
+        
+        }
+
+        footer{
+background-color: black;
+color: white;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+    
+    </style>
 </head>
+
+
 <body>
-    <p>i love coding</p>
+    
+
+    <div class="container"> 
+
+        <!--left div with personal profile-->
+    <div class="about"> 
+        <img src="/images/deborah.jpg" alt="My photo">
+        <p><strong> ANGOM NAOMI DEBORAH ~ Front-end developer </strong> <br> <strong> About me: </strong> I first met code in my year 1 at the university and did not like it. I did my best to understand it by cramming code to pass the exam. <br>However, as the semesters passed by, I realized that I actually loved code. I grew fond of it, found it intriguing, and was curious to know more. Supplemented by coding workshops and trainings, here I am.</p>
+
+    </div>
+
+    <!--right div with projects-->
+    <div class="projects"> 
+        <p>I have used technologies like JavaScript, C#, HTML and CSS, Java, and Visual basic. I am also familiar with tools like VSCode (code editor), Git and Github (for version control), Trello and Pivotal tracker (for project management), and Node.js.<br></p>
+        <p> Projects I've worked on</p>
+        <p> <ol>
+            <li>Facebook</li> <br> Creating a copy of the Facebook page. <a href="https://github.com/Angom-Naomi/week1-challenge2.git"> link </a>
+            <li> CatApp</li> <br> A web page created with the aim of learning basic HTML. <a href="https://github.com/Angom-Naomi/catApp.git "> link </a>
+            <li> Pingu</li> <br> Design a web page that is accessible and responsive. <a href="https://github.com/Angom-Naomi/basic-CSS.git "> link </a>
+        </ol></p>
+        <p>For all aspiring software developer out there, you won't know how far you can go unless you persist.</p>
+    </div>
+
+    </div>
+    <!--Footer-->
+    <footer> &copy; 2020 Angom Naomi Deborah | All Rights Reserved | <a href="https://github.com/Angom-Naomi">Github</a> | <a href="https://www.linkedin.com/in/naomi-deborah-angom">LinkedIn </a></footer>
+
 </body>
-</html>
+</html> 
