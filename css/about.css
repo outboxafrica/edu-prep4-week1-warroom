@@ -1,10 +1,18 @@
 .about{
    color: tomato;
     font-size: 25px;
-    background-color: black;
+    /* background-color: black; */
     margin-botton: 50px;
 }
 
+.all{
+    background-color: #000000;
+    opacity: o.5;
+}
+
+h1{
+    color: whitesmoke;
+}
 button {
     width: 400px;
     border-radius: 50px;
