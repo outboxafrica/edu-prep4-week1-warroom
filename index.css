@@ -1,0 +1,34 @@
+.wrapper {
+margin: 0;
+width: 1000px;
+text-align:  justify;
+font-family: cursive;
+font-size: 22px;
+
+}
+.img-screenshot {
+width: 150px;
+}
+body{
+    background-image: url()
+
+
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    text-indent: 30px;
+    text-align:  left;
+    float: left;
+    border:5px;
+    padding:10px;
+    padding-right: 5px;
+    padding-right: 5px;
+
+
+}
+.container {
+
+}
+
