@@ -1,0 +1,49 @@
+.wrapper {
+margin: 0;
+width: 1000px;
+text-align:  justify;
+font-family: cursive;
+font-size: 22px;
+color: white;
+
+}
+.img-screenshot {
+width: 200px;
+}
+body{
+    background-image: url(images/green-3d-hexagon-tech-background-vector-illustration.jpg)
+
+
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    text-indent: 30px;
+    text-align:  left;
+    float: left;
+    border:5px;
+    padding:10px;
+    padding-right: 5px;
+    padding-right: 5px;
+    color :white;
+
+
+}
+.container {
+display: flex;
+
+}
+li {
+    display:inline;
+    text-align: left;
+    font-size: 20px;
+    color:white;
+
+
+    
+}
+h2 {
+color:white;
+}
+
