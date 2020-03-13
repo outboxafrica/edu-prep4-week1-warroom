@@ -4,13 +4,14 @@ width: 1000px;
 text-align:  justify;
 font-family: cursive;
 font-size: 22px;
+color: white;
 
 }
 .img-screenshot {
-width: 150px;
+width: 200px;
 }
 body{
-    background-image: url()
+    background-image: url(images/green-3d-hexagon-tech-background-vector-illustration.jpg)
 
 
 }
@@ -25,10 +26,24 @@ p{
     padding:10px;
     padding-right: 5px;
     padding-right: 5px;
+    color :white;
 
 
 }
 .container {
+display: flex;
 
+}
+li {
+    display:inline;
+    text-align: left;
+    font-size: 20px;
+    color:white;
+
+
+    
+}
+h2 {
+color:white;
 }
 
